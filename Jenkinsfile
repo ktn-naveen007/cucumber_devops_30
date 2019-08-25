@@ -13,6 +13,6 @@ mvn test
 '''
 }
 stage('reports'){
-cucumber fileIncludePattern: '**/*.json', jsonReportDirectory: 'E:\\Cucumber_Naveen\\cucumber\\Extent Reports', sortingMethod: 'ALPHABETICAL'
+cucumber fileIncludePattern: '**/*.json', jsonReportDirectory: 'E:\\Cucumber_Naveen\\cucumber\\target\\cucumber-reports', sortingMethod: 'ALPHABETICAL'
 }
 }
