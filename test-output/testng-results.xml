@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Cucumber Automation Test Suite" duration-ms="11448" started-at="2019-08-25T07:56:50Z" finished-at="2019-08-25T07:57:02Z">
+  <suite name="Cucumber Automation Test Suite" duration-ms="774" started-at="2019-08-25T08:22:07Z" finished-at="2019-08-25T08:22:08Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.automation.cucumber.Runner@3c0f93f1]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Naveen" duration-ms="11448" started-at="2019-08-25T07:56:50Z" finished-at="2019-08-25T07:57:02Z">
+    <test name="Naveen" duration-ms="774" started-at="2019-08-25T08:22:07Z" finished-at="2019-08-25T08:22:08Z">
       <class name="com.automation.cucumber.Runner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.automation.cucumber.Runner@3c0f93f1]" name="setUpClass" is-config="true" duration-ms="200" started-at="2019-08-25T07:56:50Z" finished-at="2019-08-25T07:56:51Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.automation.cucumber.Runner@3c0f93f1]" name="setUpClass" is-config="true" duration-ms="168" started-at="2019-08-25T08:22:07Z" finished-at="2019-08-25T08:22:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.automation.cucumber.Runner@3c0f93f1]" name="feature" duration-ms="10862" started-at="2019-08-25T07:56:51Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-08-25T07:57:02Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.automation.cucumber.Runner@3c0f93f1]" name="feature" duration-ms="257" started-at="2019-08-25T08:22:07Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-08-25T08:22:08Z">
           <params>
             <param index="0">
               <value>
@@ -25,7 +25,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="FAIL" signature="writeExtentReport()[pri:0, instance:com.automation.cucumber.Runner@3c0f93f1]" name="writeExtentReport" is-config="true" duration-ms="2" started-at="2019-08-25T07:57:02Z" finished-at="2019-08-25T07:57:02Z">
+        <test-method status="FAIL" signature="writeExtentReport()[pri:0, instance:com.automation.cucumber.Runner@3c0f93f1]" name="writeExtentReport" is-config="true" duration-ms="1" started-at="2019-08-25T08:22:08Z" finished-at="2019-08-25T08:22:08Z">
           <exception class="java.lang.NoSuchMethodError">
             <message>
               <![CDATA[com.aventstack.extentreports.reporter.ExtentHtmlReporter.loadXMLConfig(Ljava/io/File;)V]]>
@@ -66,7 +66,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeExtentReport -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.automation.cucumber.Runner@3c0f93f1]" name="tearDownClass" is-config="true" duration-ms="289" started-at="2019-08-25T07:57:02Z" finished-at="2019-08-25T07:57:02Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.automation.cucumber.Runner@3c0f93f1]" name="tearDownClass" is-config="true" duration-ms="261" started-at="2019-08-25T08:22:08Z" finished-at="2019-08-25T08:22:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

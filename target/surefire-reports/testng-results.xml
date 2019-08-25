@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Cucumber Automation Test Suite" duration-ms="11344" started-at="2019-08-25T08:52:50Z" finished-at="2019-08-25T08:53:02Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.automation.cucumber.Runner@4439f31e]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Naveen" duration-ms="11344" started-at="2019-08-25T08:52:50Z" finished-at="2019-08-25T08:53:02Z">
+      <class name="com.automation.cucumber.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.automation.cucumber.Runner@4439f31e]" name="setUpClass" is-config="true" duration-ms="242" started-at="2019-08-25T14:22:50Z" finished-at="2019-08-25T14:22:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.automation.cucumber.Runner@4439f31e]" name="feature" duration-ms="10739" started-at="2019-08-25T14:22:51Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-08-25T14:23:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login to application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:com.automation.cucumber.Runner@4439f31e]" name="writeExtentReport" is-config="true" duration-ms="25" started-at="2019-08-25T14:23:02Z" finished-at="2019-08-25T14:23:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeExtentReport -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.automation.cucumber.Runner@4439f31e]" name="tearDownClass" is-config="true" duration-ms="258" started-at="2019-08-25T14:23:02Z" finished-at="2019-08-25T14:23:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.automation.cucumber.Runner -->
+    </test> <!-- Naveen -->
+  </suite> <!-- Cucumber Automation Test Suite -->
+</testng-results>
