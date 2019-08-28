@@ -3,12 +3,12 @@ stage('initialize'){
 checkout scm
 }
 stage('compile'){
-bat '''
+sh '''
 mvn compile
 '''
 }
 stage('unittest'){
-bat '''
+sh'''
 mvn test
 '''
 }
