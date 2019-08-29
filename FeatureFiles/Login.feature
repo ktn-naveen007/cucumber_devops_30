@@ -14,4 +14,4 @@ And I click on adduser link
 
 Examples: 
 		| browser 		| URL  								| username | password |
-		|Chrome    	| http://yp1007034lt/yash-test/ 	|naveen@gmail.com| yash1234|
+		|Chrome    	| https://www.amazon.in	|naveen@gmail.com| yash1234|
