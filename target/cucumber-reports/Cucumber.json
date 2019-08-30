@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5105551603,
+              "duration": 3083469371,
               "status": "passed"
             },
             "line": 6,
@@ -33,7 +33,7 @@
           },
           {
             "result": {
-              "duration": 9821907032,
+              "duration": 13934594638,
               "status": "passed"
             },
             "line": 7,
@@ -50,7 +50,7 @@
             "matchedColumns": [
               1
             ],
-            "keyword": "When "
+            "keyword": "And "
           }
         ],
         "tags": [
