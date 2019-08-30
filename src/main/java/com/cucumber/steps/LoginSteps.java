@@ -28,6 +28,7 @@ public class LoginSteps extends Base{
 	    // Write code here that turns the phrase above into concrete actions
 		System.out.println(arg1);
 		obj.instance().get(arg1);
+		obj.instance().close();
 	    // throw new PendingException();
 	}
 
