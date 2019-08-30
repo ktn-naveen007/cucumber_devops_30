@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 17,
+        "line": 12,
         "name": "enter valid user name and password",
         "description": "",
         "id": "login-to-application;enter-valid-user-name-and-password;;2",
@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4328000146,
+              "duration": 3078446702,
               "status": "passed"
             },
             "line": 6,
@@ -33,7 +33,7 @@
           },
           {
             "result": {
-              "duration": 12574462034,
+              "duration": 3659024292,
               "status": "passed"
             },
             "line": 7,
@@ -50,94 +50,7 @@
             "matchedColumns": [
               1
             ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 26667,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I verify i am on login page",
-            "match": {
-              "location": "LoginSteps.i_verify_i_am_on_login_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 244044108,
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder\u003d\u0027Username\u0027]\"}\n  (Session info: chrome\u003d76.0.3809.100)\n  (Driver info: chromedriver\u003d2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform\u003dWindows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027YP1007034LT\u0027, ip: \u0027172.19.80.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_171\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\\Users\\NAVIN~1.KOT\\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 76.0.3809.100, webStorageEnabled: true}\nSession ID: 03b9c427a8de1bc015f1d4cf3f656aa6\n*** Element info: {Using\u003dxpath, value\u003d//input[@placeholder\u003d\u0027Username\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\r\n\tat com.cucumber.steps.LoginSteps.i_enter_valid_username(LoginSteps.java:44)\r\n\tat ✽.When I enter valid \"naveen@gmail.com\" username(Login.feature:9)\r\n",
-              "status": "failed"
-            },
-            "line": 9,
-            "name": "I enter valid \"naveen@gmail.com\" username",
-            "match": {
-              "arguments": [
-                {
-                  "val": "naveen@gmail.com",
-                  "offset": 15
-                }
-              ],
-              "location": "LoginSteps.i_enter_valid_username(String)"
-            },
-            "matchedColumns": [
-              2
-            ],
             "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 10,
-            "name": "I enter valid \"yash1234\" password",
-            "match": {
-              "arguments": [
-                {
-                  "val": "yash1234",
-                  "offset": 15
-                }
-              ],
-              "location": "LoginSteps.i_enter_valid_password(String)"
-            },
-            "matchedColumns": [
-              3
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 11,
-            "name": "I click on login button",
-            "match": {
-              "location": "LoginSteps.i_click_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 12,
-            "name": "I verify landing page is adduser page",
-            "match": {
-              "location": "LoginSteps.i_verify_landing_page_is_adduser_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 13,
-            "name": "I click on adduser link",
-            "match": {
-              "location": "LoginSteps.i_click_on_adduser_link()"
-            },
-            "keyword": "And "
           }
         ],
         "tags": [
