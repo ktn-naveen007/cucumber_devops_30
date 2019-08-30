@@ -29,7 +29,7 @@ public class Runner extends AbstractTestNGCucumberTests {
 //	Reporter.loadXMLConfig(new File("E:\\Cucumber_Naveen\\cucumber\\extent-config.xml"));
 		/*File directory = new File("./");
 		  // System.out.println(directory.getAbsolutePath());*/
-		Reporter.loadXMLConfig(new File("./extent-config.xml"));
+		Reporter.loadXMLConfig(new File("./extent-config.xml")); 
 
 	}
 }
